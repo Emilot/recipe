@@ -20,12 +20,12 @@ PermitRootLogin yes" >> /etc/ssh/sshd_config):
 
 The last step is to download and run the script. The direct links of the scripts are:
 
-- https://raw.githubusercontent.com/archphile/recipe/master/scripts/archphile-create-script-rpi.sh
-- https://raw.githubusercontent.com/archphile/recipe/master/scripts/archphile-create-script-odroidc2.sh
+- https://raw.githubusercontent.com/emilot/recipe/master/scripts/archphile-create-script-rpi.sh
+- https://raw.githubusercontent.com/emilot/recipe/master/scripts/archphile-create-script-odroidc2.sh
 
 For example, if you have a Raspberry Pi 2 or 3 you have to do the following:
 
-    wget https://raw.githubusercontent.com/archphile/recipe/master/scripts/archphile-create-script-rpi.sh
+    wget https://raw.githubusercontent.com/emilot/recipe/master/scripts/archphile-create-script-rpi.sh
 
     chmod +x archphile-create-script-rpi.sh
 
